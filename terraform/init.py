@@ -2,7 +2,7 @@ import os
 import subprocess
 
 
-def makeDir(directory, parent_dir):
+def makeDir(directory:str, parent_dir:str):
     path = os.path.join(parent_dir, directory)
 
     try:
